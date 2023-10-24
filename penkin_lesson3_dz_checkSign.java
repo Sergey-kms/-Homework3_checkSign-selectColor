@@ -4,7 +4,7 @@ public class penkin_lesson3_dz_checkSign {
     public static void checkSign() {
         int a = 2;
         int b = 5;
-        int c = 10;
+        int c = -10;
         int result = a + b + c;
         if (result >= 0) {
             System.out.println("Сумма положительная");

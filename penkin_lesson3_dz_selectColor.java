@@ -12,6 +12,6 @@ public class penkin_lesson3_dz_selectColor {
         }
     }
     public static void main(String[] args) {
-            selectColor();
-        }
+        selectColor();
     }
+}
