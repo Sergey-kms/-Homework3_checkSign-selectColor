@@ -1,10 +1,7 @@
 package ru.java.penkin.lesson3dz;
 
 public class penkin_lesson3_dz_checkSign {
-    public static void checkSign() {
-        int a = 2;
-        int b = 5;
-        int c = -10;
+    public static void checkSign (int a, int b, int c) {
         int result = a + b + c;
         if (result >= 0) {
             System.out.println("Сумма положительная");
@@ -14,6 +11,6 @@ public class penkin_lesson3_dz_checkSign {
     }
 
     public static void main(String[] args) {
-        checkSign();
+        checkSign(-50, 10, 5);
     }
 }

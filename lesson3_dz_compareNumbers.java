@@ -6,7 +6,7 @@ public class lesson3_dz_compareNumbers {
         int b = 50;
         if (a >= b) {
             System.out.println("a >= b");
-        } else if (a < b) {
+        } else {
             System.out.println("a < b");
         }
     }
